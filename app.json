@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Professional Portfolio",
+    "slug": "lockey-aventures",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eyraudmathieu.professionalportfolio"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.eyraudmathieu.professionalportfolio"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b49a435-b149-4c7e-a767-2b31e7e37896"
+      }
+    },
+    "owner": "eyraudmathieu",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3b49a435-b149-4c7e-a767-2b31e7e37896"
+    }
+  }
+}
